@@ -1,19 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 /* Requisito 1 */
 .header-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(87, 87, 87);
+  color: rgb(235, 235, 235);
+  margin-bottom: 15px;
 }
 
 .header-img {
   width: 50px;
-  height: 50px;
 }
-
+.header-login {
+  color: rgb(235, 235, 235);
+}
 /* Requisito 2 */
 .text-section {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 /* Requisito 3 */
@@ -21,22 +33,43 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .gallery-card {
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: rgb(221, 221, 221);
-border-radius: 15px;
-margin: 5px;
-color: grey;
-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.212);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+  border-radius: 15px;
+  margin: 5px;
+  color: grey;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.212);
 }
-
+.gallery-card h4 {
+  margin-top: 10px;
+}
 .gallery-card img {
   width: 150px;
   height: 150px;
   padding: 15px;
- 
+}
+
+hr {
+  margin-top: 15px;
+  width: 30%;
+  text-align: center;
+}
+/* Requisito 4 */
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-instagram,
+.social-linkedin {
+  margin: 15px 5px 0;
+  width: 20px;
+  height: 20px;
 }
