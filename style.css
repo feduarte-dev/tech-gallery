@@ -1,10 +1,17 @@
+/* Requisito 1 */
 .header-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.header-container img {
+.header-img {
   width: 50px;
   height: 50px;
+}
+
+/* Requisito 2 */
+.text-section {
+  display: flex;
+  justify-content: center;
 }
