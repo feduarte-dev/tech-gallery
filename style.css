@@ -53,6 +53,7 @@
 .gallery-card h4 {
   margin-top: 10px;
 }
+
 .gallery-card img {
   width: 150px;
   height: 150px;
@@ -71,8 +72,7 @@ hr {
   justify-content: center;
 }
 
-.social-instagram , 
-.social-linkedin {
+.social-instagram , .social-linkedin {
   margin: 15px 5px 0;
   width: 20px;
   height: 20px;
